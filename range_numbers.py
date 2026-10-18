@@ -1,0 +1,10 @@
+a = int(input('Введите число: '))
+b = int(input('Введите число: '))
+if a < b:
+    for i in range(a, b+1):
+        print(i)
+elif a > b:
+    for i in range(a, b-1, -1):
+        print(i)
+else:
+    print(a)
